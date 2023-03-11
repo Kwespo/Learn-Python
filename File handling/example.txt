@@ -1,0 +1,15 @@
+
+AAAAAAAAA
+~~~~
+Below is a line added via input.
+
+
+Inputted STR 1
+Inputted STR 2
+Inputted STR 3
+Inputted STR 4
+Inputted STR 5
+
+Maddie is a bitch
+Hello world
+Hamilton is sucky

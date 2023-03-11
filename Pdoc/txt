@@ -1,0 +1,12 @@
+PDoc 
+
+Pdoc is a simple way to create documentation for your code. It makes a HTML document which contains all your classes, functions and such.
+
+How to use:
+
+Install Pdoc3 
+  pip install pdoc3
+
+To run it:
+  (in the terminal)
+    pdoc --html (folderName)

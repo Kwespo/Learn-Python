@@ -1,0 +1,124 @@
+Methods
+  append()	Adds an element at the end of the list
+  clear()	Removes all the elements from the list
+  copy()	Returns a copy of the list
+  count()	Returns the number of elements with the specified value
+  extend()	Add the elements of a list (or any iterable), to the end of the current list
+  index()	Returns the index of the first element with the specified value
+  insert()	Adds an element at the specified position
+  pop()	Removes the element at the specified position
+  remove()	Removes the item with the specified value
+  reverse()	Reverses the order of the list
+  sort()	Sorts the list
+
+Ranges of a list eg:
+
+  list = [1, 2, 3, 4, 5, 6]
+  
+
+  From the START of the list:
+
+  print(list[2:5]) this will print number 3, 4, 5 and 6
+
+  print(list[:4]) this will print 1,2,3,4 and 5
+
+  print(list[2:]) this will print 3, 4, 5 and 6
+
+  From the END of the list:
+
+  print(list[-4:-1]) this will print 5, 4, 3 and 2
+
+Validating lists
+  check if something is in a list:
+
+  if 2 in list
+    print("Yes")
+
+
+Change data in the list
+
+  list2 = [Red, Blue, Green]
+  
+  Item value:
+    list2[1] = Orange
+
+      List2[Red, Orange, Green]
+
+  
+  Change Range value:
+    list2[1:2] = [Orange, Purple]
+      list2[Red, Orange, Purple]
+
+  Add to the list:
+    
+    list2.insert(2, "Purple")
+      list2[Red, Blue, Green, Purple]
+        insert inserts it to a spesific point in the list
+
+    list2.append("Orange") 
+      Append adds it to add ONE THING to the end of the list.
+
+    list2.extend(Black, White, Brown)
+      extend can be used to add multiple or another list.
+    
+  Remove from list:
+
+  list2.pop(2) 
+    used to remove a spesifc index from the list, in this case its Green. If not spesifc index it removed the last one.
+
+  list2.remove(Red)
+    removed from the list. 
+
+  del list2 
+    removes entire list
+
+  list2.clear
+    clears everything inside the list.
+
+List Comprehention
+  fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+    newlist = [x for x in fruits if "a" in x]
+      0+1 for every str in list if "a" in list keep in list
+        tldr: if it contains a its added to a new list which only contains things containing a
+
+    print(newlist)
+
+    fruits[apple, bannana, mango]
+
+
+Sorting
+  Sort the list alphabetically:
+
+    thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+    thislist.sort()
+    print(thislist)
+  
+  Sort the list numerically:
+
+    thislist = [100, 50, 65, 82, 23]
+    thislist.sort()
+    print(thislist)
+
+  Sort the list descending:
+
+    thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+    thislist.sort(reverse = True)
+    print(thislist)
+
+  Sort the list descending:
+
+    thislist = [100, 50, 65, 82, 23]
+    thislist.sort(reverse = True)
+    print(thislist)
+
+  Reverse the order of the list items:
+
+    thislist = ["banana", "Orange", "Kiwi", "cherry"]
+    thislist.reverse()
+    print(thislist)
+
+  Perform a case-insensitive sort of the list:
+
+    thislist = ["banana", "Orange", "Kiwi", "cherry"]
+    thislist.sort(key = str.lower)
+    print(thislist)

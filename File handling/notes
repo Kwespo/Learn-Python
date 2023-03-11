@@ -1,0 +1,12 @@
+r = Read
+a = Append (opens the file or makes a new one if the file dont exist)
+w = Write (opens the file or makes a new one if the file dont exist)
+x = creates a specific file (returns error if no work)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Bianary or text. 
+
+t = text 
+b = binary (eg: images)
+
