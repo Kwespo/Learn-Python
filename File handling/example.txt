@@ -10,6 +10,13 @@ Inputted STR 3
 Inputted STR 4
 Inputted STR 5
 
+2.3
+
+float
 
 Hello world
 Hamilton is sucky
+Its a smort compupor lol
+Helooooooooooooooooooooo
+
+STR
