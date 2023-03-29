@@ -10,6 +10,6 @@ Inputted STR 3
 Inputted STR 4
 Inputted STR 5
 
-Maddie is a bitch
+
 Hello world
 Hamilton is sucky
