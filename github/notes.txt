@@ -1,0 +1,20 @@
+M = modified
+
+U = untracked
+
+Pull request: Getting the updated version.
+
+README's
+
+Markdown preview GitHUb Styling. 
+# == title
+
+### == subtitle
+
+- == bulletpoint
+
+Bold text == **word**
+
+images:
+  ![Can be called anything] (name of the image, must be in the same file as the README file)
+
