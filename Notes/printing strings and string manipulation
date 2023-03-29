@@ -1,0 +1,5 @@
+New line
+/ == Breif escape of the string. This is used to insert a condition like 'n' for new line. 
+// == as / is escape, if you want to have / in the actual string it needs to be doubled with //.
+
+Keywords
