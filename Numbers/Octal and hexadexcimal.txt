@@ -1,0 +1,5 @@
+Octal:
+
+Octal numbers: Get the Octal of the given number by placing 0o or 0O before the number. 
+
+Hexadecimal numbers: Get the Hexadecimal of the given number by placing 0x or 0X before the number.
