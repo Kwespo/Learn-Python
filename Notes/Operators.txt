@@ -9,7 +9,7 @@ ARITHMATIC OPERATORS
 **	Exponentiation	x ** y	
     times the number by the amount eg: 2**5 == 2*2*2*2
 //	Floor division	x // y
-    Rounds **DOWN** to the nearest whole number (integer) eg: 15//2 = 7 (In actuallity its equal to 7.5)
+    Rounds **DOWN** to the nearest whole number (integer) eg: 15//2 = 7 (In actuallity its equal to 7.3)
 
 
 ASSIGNMENT OPERATORS
