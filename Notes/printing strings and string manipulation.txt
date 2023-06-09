@@ -49,3 +49,10 @@ New line
 // == as / is escape, if you want to have / in the actual string it needs to be doubled with //.
 
 Keywords
+
+End= == End= means that at the end of the string it will do so something. If its something like end="a" at the end of the string it will say
+        but, if you do something like end="" it will connect the next print command so its in the same line. 
+
+sep= == separets the argments to a spesific thing eg:
+        print("A", "B", "C", sep="-") will make it print A-B-C
+
