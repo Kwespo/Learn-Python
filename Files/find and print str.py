@@ -8,4 +8,4 @@ def search_str(file_path, word):
         else:
             print('string does not exist in a file')
 
-search_str("File handling\example.txt", "STR")
+search_str("Files\example.txt", "STR")
